@@ -40,8 +40,8 @@
   },
   {
     "name": "Equine Breeding Grounds",
-    "food": 4,
-    "percentStatBonus": {"food": 10},
+    "food": 3,
+    "percentStatBonus": {"food": 12},
     "requiredTech": "Horseback Riding",
     "requiredNearbyImprovedResources": ["Horses"],
     "hurryCostModifier": 20,
