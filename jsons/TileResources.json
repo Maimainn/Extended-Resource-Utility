@@ -16,6 +16,6 @@
                                   "Guaranteed with Strategic Balance resource option"],
           "majorDepositAmount": {"sparse": 5, "default": 8, "abundant": 11},
           "minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4},
-   "icon": "ResourceIcon/TitaniumBGR.png"
+   "icon": "ResourceIcon/Titanium.png"
   }
 ]
