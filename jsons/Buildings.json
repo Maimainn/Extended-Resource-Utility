@@ -358,7 +358,7 @@
     ]
   },
   {
-    "name": "National Steel Foundry",
+    "name": "Advance Steel Foundry",
     "production": 6,
     "happiness": 2,
     "requiredTech": "Railroads",
