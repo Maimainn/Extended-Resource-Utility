@@ -19,7 +19,7 @@
     "requiredTech": "Horseback Riding",
     "specialistSlots": {"Merchant": 1},
     "requiredBuilding": "Market",
-    "requiredResource": "Horses",
+    "requiredResource": "Horses","Cattle","Sheep","Bison"
     "hurryCostModifier": 7,
     "uniques": [
       "[+1 Gold] from each Trade Route",
