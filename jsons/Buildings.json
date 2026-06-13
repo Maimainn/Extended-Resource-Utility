@@ -8,46 +8,46 @@
     "percentStatBonus": {"food": 5},
     "requiredTech": "Animal Husbandry",
     "requiredResource": "Horses",
-    "maintenance": 1,
+    "maintenance": 2,
     "uniques": [
       "[+1 Gold] from [Pasture] tiles [in this city]"
     ]
   },
   {
-    "name": "Horse Market",
-    "gold": 3,
+    "name": "Livestock Market",
+    "gold": 2,
     "requiredTech": "Horseback Riding",
     "specialistSlots": {"Merchant": 1},
     "requiredBuilding": "Market",
     "requiredResource": "Horses",
-    "hurryCostModifier": 5,
+    "hurryCostModifier": 7,
     "uniques": [
       "[+1 Gold] from each Trade Route",
       "[+1 Food] from [Horses] tiles [in this city]"
     ]
   },
   {
-    "name": "Stable Extension",
+    "name": "Expanded Stables",
     "cost": 175,
-    "food": 3,
+    "food": 4,
     "gold": 2,
-    "maintenance": 3,
+    "maintenance": 4,
     "requiredTech": "Horseback Riding",
     "requiredBuilding": "Stable",
     "requiredResource": "Horses",
     "uniques": [
-      "[+2 Food] from every [Stable] <in this city>"
+      "[+1 Food] from every [Stable] <in this city>"
     ]
   },
   {
-    "name": "Equine Breeding Grounds",
-    "food": 3,
-    "percentStatBonus": {"food": 10},
+    "name": "Equine Breeding Facility",
+    "food": 4,
+    "percentStatBonus": {"food": 5},
     "requiredTech": "Horseback Riding",
     "requiredNearbyImprovedResources": ["Horses"],
     "hurryCostModifier": 25,
     "uniques": [
-      "Provides [3] [Horses]",
+      "Provides [2] [Horses]",
       "[+1 Food] per [4] population [in this city]"
     ]
   },
