@@ -809,10 +809,10 @@
     "requiredTech": "Electronics",
     "requiredBuilding": "Seaport",
     "maintenance": 10,
-    "hurryCostModifier": 74,
+    "hurryCostModifier": 96,
     "uniques": [
       "Provides [3] [Oil]",
-      "[+1] Movement <for [Embarked] units>",
+      "[+1] Movement <for [Embarked] units> <when at war> <for units with [Amphibious]> <upon entering a [Ocean] tile> <during a Golden Age>",
       "All newly-trained [Land] units [in this city] receive the [Amphibious] promotion",
       "Must be next to [Water]",
       "Limited to [3] per Civilization"
