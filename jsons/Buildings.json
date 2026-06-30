@@ -598,4 +598,224 @@
       "Must have an owned [Fort] within [5] tiles"
     ]
   },
+
+ //Oil
+  {
+    "name": "Oil Extraction Facility",
+    "cost": 400,
+    "production": 4,
+    "percentStatBonus": {"production": 5},
+    "requiredTech": "Biology",
+    "requiredNearbyImprovedResources": ["Oil"],
+    "requiredResource": "Oil",
+    "maintenance": 4,
+    "uniques": [
+      "[+1 Production] from [Oil well] tiles [in this city]",
+      "[+3]% [Production] from every [Offshore Platform] <in this city>"
+    ]
+  },
+  {
+    "name": "Oil Refinery Complex",
+    "production": 6,
+    "percentStatBonus": {"production": 5},
+    "specialistSlots": {"Engineer": 2},
+    "requiredTech": "Combustion",
+    "requiredResource": "Oil",
+    "maintenance": 5,
+    "hurryCostModifier": 46,
+    "uniques": [
+      "[+15]% Production when constructing [Armored] units [in this city]"
+    ]
+  },
+  {
+    "name": "Broadcast Fuel Network",
+    "production": 5,
+    "happiness": 2,
+    "percentStatBonus": {"happiness": 10},
+    "requiredTech": "Radio",
+    "requiredBuilding": "Broadcast Tower",
+    "maintenance": 6,
+    "hurryCostModifier": 47,
+    "uniques": [
+      "Provides [2] [Oil]",
+      "[+1 Happiness] from every [Broadcast Tower]",
+      "[+2]% Yield from every [Friendly Land] <when above [50] [Happiness]> <when espionage is enabled>"
+    ]
+  },
+  {
+    "name": "Petroleum Trade Depot",
+    "science": 5,
+    "gold": 3,
+    "specialistSlots": {"Merchant": 2},
+    "requiredTech": "Combustion",
+    "requiredBuilding": "Trading Center",
+    "requiredResource": "Oil",
+    "maintenance": 5,
+    "hurryCostModifier": 40,
+    "uniques": [
+      "[+2 Gold] per [5] population [in this city]",
+      "[+2 Gold] from each Trade Route <in this city>"
+    ]
+  },
+  {
+    "name": "Petrochemical Plant",
+    "production": 6,
+    "gold": 3,
+    "percentStatBonus": {"production": 8},
+    "requiredTech": "Plastics",
+    "requiredBuilding": "Oil Refinery Complex",
+    "requiredNearbyImprovedResources": ["Oil"],
+    "requiredResource": "Oil",
+    "maintenance": 5,
+    "hurryCostModifier": 49,
+    "uniques": [
+      "[+3]% [Gold] from every [Improvement]",
+      "[+10]% Unhappiness from [Unemployed] [in this city] <when at war>",
+      "[-10]% Unhappiness from [Specialists] [in this city] <when at war>"
+    ]
+  },
+  {
+    "name": "Pressure Refinement Facility",
+    "cost": 485,
+    "science": 4,
+    "gold": 2,
+    "requiredTech": "Plastics",
+    "requiredBuilding": "Oil Extraction Facility",
+    "requiredNearbyImprovedResources": ["Oil"],
+    "requiredResource": "Oil",
+    "maintenance": 3,
+    "uniques": [
+      "[+2 Science] from [Oil] tiles [in this city]",
+      "[+1 Gold] per [5] population [in this city]"
+    ]
+  },
+  {
+    "name": "Energy Faith Center",
+    "faith": 6,
+    "gold": 3,
+    "percentStatBonus": {"faith": 10},
+    "requiredTech": "Plastics",
+    "requiredResource": "Oil",
+    "maintenance": 2,
+    "uniques": [
+      "[+5]% [Faith] from every [Oil well] <in [Friendly Land] tiles> <in this city>",
+      "[+5]% [Faith] from every [Offshore Platform] <in [Friendly Land] tiles> <in this city>",
+      "Only available <when religion is enabled>"
+    ]
+  },
+  {
+    "name": "Automated Drilling Facility",
+    "science": 5,
+    "production": 3,
+    "percentStatBonus": {"science": 8},
+    "specialistSlots": {"Scientist": 2},
+    "requiredTech": "Electronics",
+    "requiredNearbyImprovedResources": ["Oil"],
+    "requiredResource": "Aluminum",
+    "maintenance": 8,
+    "hurryCostModifier": 52,
+    "uniques": [
+      "Provides [3] [Oil]",
+      "[+1 Science] per [4] population [in this city]",
+      "[+5]% [Production] from every [Oil well] <upon entering the [Atomic era]>",
+    "Limited to [5] per Civilization"
+    ]
+  },
+  {
+    "name": "Petrochemical Research Lab",
+    "cost": 530,
+    "science": 5,
+    "gold": 4,
+    "production": 2,
+    "specialistSlots": {"Scientist": 2},
+    "requiredTech": "Rocketry",
+    "requiredBuilding": "Petrochemical Plant",
+    "requiredResource": "Oil",
+    "maintenance": 8,
+    "uniques": [
+      "[+1 Science] per [7] population [in this city]",
+      "[+7]% Production when constructing [post-[Industrial era]] units [in this city]"
+    ]
+  },
+  {
+    "name": "Aviation Fuel Facility",
+    "cost": 495,
+    "production": 5,
+    "gold": 3,
+    "percentStatBonus": {"production": 15},
+    "requiredTech": "Flight",
+    "requiredBuilding": "Pressure Refinement Facility",
+    "requiredResource": "Oil",
+    "maintenance": 4,
+    "uniques": [
+      "[+10]% Production when constructing [Air] units [in this city] <in tiles not adjacent to [Rough terrain] tiles>"
+    ]
+  },
+  {
+    "name": "Energy Conversion Refinery",
+    "cost": 520,
+    "science": 4,
+    "gold": 3,
+    "requiredTech": "Plastics",
+    "requiredBuilding": "Oil Refinery Complex",
+    "requiredNearbyImprovedResources": ["Oil"],
+    "requiredResource": "Oil",
+    "maintenance": 5,
+    "uniques": [
+      "[+1 Science] per [4] population [in this city]",
+      "[+2 Gold] from [Offshore Platform] tiles [in this city]",
+      "Must have an owned [Offshore Platform] within [4] tiles <in this city>"
+    ]
+  },
+  {
+    "name": "Environmental Fuel Program",
+    "happiness": 5,
+    "production": 4,
+    "percentStatBonus": {"production": 10},
+    "specialistSlots": {"Engineer": 1},
+    "requiredTech": "Rocketry",
+    "requiredBuilding": "Garden",
+    "requiredResource": "Oil",
+    "maintenance": 4,
+    "hurryCostModifier": 52,
+    "uniques": [
+      "[+1 Happiness] from all [Production] buildings",
+      "[-10]% Unhappiness from [Population] [in this city]"
+    ]
+  },
+  {
+    "name": "Petroleum Administration Bureau",
+    "science": 5,
+    "production": 2,
+    "gold": 1,
+    "cityHealth": 17,
+    "percentStatBonus": {"science": 15},
+    "specialistSlots": {"Scientist": 2},
+    "requiredTech": "Plastics",
+    "requiredBuilding": "Petroleum Trade Depot",
+    "requiredResource": "Oil",
+    "maintenance": 8,
+    "hurryCostModifier": 67,
+    "uniques": [
+      "[+2 Science] from every specialist [in this city]",
+      "[+1 Gold] from all [Production] buildings <in this city> <without [Oil]>"
+    ]
+  },
+  {
+    "name": "Offshore Logistics Port",
+    "production": 8,
+    "culture": 4,
+    "percentStatBonus": {"production": 15},
+    "requiredTech": "Electronics",
+    "requiredBuilding": "Seaport",
+    "maintenance": 10,
+    "hurryCostModifier": 74,
+    "uniques": [
+      "Provides [3] [Oil]",
+      "[+1] Movement <for [Embarked] units>",
+      "All newly-trained [Land] units [in this city] receive the [Amphibious] promotion",
+      "Must be next to [Water]",
+      "Limited to [3] per Civilization"
+    ]
+  },
 ]
